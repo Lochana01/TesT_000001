@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: white;
+    transition-timing-function: ease-in-out;
+    transition: width 1s, background-color 2s; 
+}
+div:hover
+    {
+        width: 500px;
+        color: black;
+        background-color: gold;
+    }
